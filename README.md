@@ -12,5 +12,7 @@
 
 ```base.conf.vim``` - настройки для редактора
 
-
+### Расширения
+- easy-motion
+- nerd-tree
 
