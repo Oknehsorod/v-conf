@@ -15,4 +15,5 @@
 ### Расширения
 - easy-motion
 - nerd-tree
+- coc.nvim
 
