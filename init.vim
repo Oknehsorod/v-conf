@@ -1,7 +1,7 @@
 " --- Init Base Modules ---
-source plugList.conf.vim
-source plug.conf.vim
-source keyboardPlug.conf.vim
-source base.conf.vim
-source keyboard.conf.vim
+runtime plugList.conf.vim
+runtime plug.conf.vim
+runtime keyboardPlug.conf.vim
+runtime base.conf.vim
+runtime keyboard.conf.vim
 "--------------------------
