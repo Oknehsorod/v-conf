@@ -1,7 +1,12 @@
 set number
-syntax on
+syntax enable
+set background=dark
 set tabstop=2
 set shiftwidth=2
 set softtabstop=0
 set smarttab
 set expandtab
+colorscheme gruvbox 
+set mouse=a
+set updatetime=1000
+set nofixendofline

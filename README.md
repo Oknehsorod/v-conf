@@ -1,5 +1,5 @@
 # V Config
-### Структура
+### Structure
 ```init.vim``` - импортирует все остальные файлы настройки
 
 ```keyboard.conf.vim``` - переопределение клавиш для редактора
@@ -12,8 +12,24 @@
 
 ```base.conf.vim``` - настройки для редактора
 
-### Расширения
-- easy-motion
-- nerd-tree
-- coc.nvim
+### Plugins
+##### Move
+- [easy-motion](https://github.com/easymotion/vim-easymotion)
+- [nerd-tree](https://github.com/preservim/nerdtree)
+##### Autocomplete
+- [coc.nvim](https://github.com/neoclide/coc.nvim)
+- [emmet-vim](https://github.com/mattn/emmet-vim)
+##### Git
+- [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
+##### Syntax
+- [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+##### Search
+- [fzf](https://github.com/junegunn/fzf.vim)
+##### Theme
+- [gruvbox](https://github.com/morhetz/gruvbox)
+##### Formatting
+- [vim-prettier](https://github.com/prettier/vim-prettier)
+##### UI
+- [vim-airline](https://github.com/vim-airline/vim-airline)
 
