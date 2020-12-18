@@ -10,3 +10,9 @@ colorscheme gruvbox
 set mouse=a
 set updatetime=1000
 set nofixendofline
+set clipboard=unnamed
+set hidden
+set nobackup
+set nowritebackup
+set cmdheight=2
+set shortmess+=c

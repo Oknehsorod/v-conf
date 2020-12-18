@@ -1,5 +1,6 @@
 " Airline
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " Emmet
 let g:user_emmet_leader_key='<C-Z>'

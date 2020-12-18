@@ -3,6 +3,7 @@ map <Space> <Plug>(easymotion-bd-f)
 
 " NerdTree binding
 map <C-n> :NERDTreeToggle<CR>
+map <leader>r :NERDTreeFind<cr>
 
 " Coc.Nvim
 inoremap <silent><expr> <TAB>
@@ -22,4 +23,21 @@ function! s:GoToDefinition()
   endif
 endfunction
 
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
 nmap <silent> fg :call <SID>GoToDefinition()<CR>
+
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  elseif (coc#rpc#ready())
+    call CocActionAsync('doHover')
+  else
+    execute '!' . &keywordprg . " " . expand('<cword>')
+  endif
+endfunction
