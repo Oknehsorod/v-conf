@@ -1,4 +1,7 @@
 # V Config
+### WSL Clipboard
+[Fix](https://superuser.com/questions/1291425/windows-subsystem-linux-make-vim-use-the-clipboard)
+
 ### Structure
 ```init.vim``` - импортирует все остальные файлы настройки
 
