@@ -41,3 +41,8 @@ function! s:show_documentation()
     execute '!' . &keywordprg . " " . expand('<cword>')
   endif
 endfunction
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<A-s>"
+let g:UltiSnipsJumpForwardTrigger="<A-l>"
+let g:UltiSnipsJumpBackwardTrigger="<A-z>"

@@ -20,3 +20,6 @@ function! EasyMotionCoc() abort
 endfunction
 autocmd TextChanged,CursorMoved * call EasyMotionCoc()
 
+" NERDTree
+let NERDTreeShowHidden = 1
+
