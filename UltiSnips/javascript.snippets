@@ -1,3 +1,5 @@
+priority -50
+
 snippet irf "import React and Fragment"
 import React, { Fragment } from "react";
 endsnippet
@@ -35,13 +37,13 @@ ${1} = (${2}) => {
 endsnippet
 
 snippet mapa "Map array"
-map((${1}) => {
-	${2}
+${1}.map((${2}) => {
+	${3}
 });
 endsnippet
 
 snippet forEacha "forEach array"
-forEach((${1}) => {
-	${2}
+${1}.forEach((${2}) => {
+	${3}
 });
 endsnippet
